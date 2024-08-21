@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-white: #FFFFFF;
+  --color-light-green: #BCECD1;
+  --color-black: #242424;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Khand", sans-serif;
+}
+
+html{
+  width: 100vw;
+  height: 100dvh;
+  overflow: hidden;
+
+  body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    // header{}
+    main{
+      section{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
