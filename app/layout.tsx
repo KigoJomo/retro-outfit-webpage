@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-white flex flex-col">
+      <body className="bg-white flex flex-col relative">
         <Header />
         <main className='w-full h-full flex-shrink-0'>{children}</main>
       </body>

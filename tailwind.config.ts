@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         'white': 'var(--color-white)',
         'light-green': 'var(--color-light-green)',
+        'light-brown': 'var(--color-light-brown)',
         'black': 'var(--color-black)',
       },
     },

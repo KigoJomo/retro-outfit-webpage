@@ -5,6 +5,7 @@
 :root {
   --color-white: #FFFFFF;
   --color-light-green: #BCECD1;
+  --color-light-brown: #928b8b;
   --color-black: #242424;
 }
 
@@ -13,6 +14,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Khand", sans-serif;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 html {
@@ -26,7 +34,13 @@ html body {
   overflow: hidden;
   overflow-y: scroll;
 }
+html body::-webkit-scrollbar {
+  display: none;
+}
 html body main section {
   width: 100%;
-  height: 100%;
+  padding: 1.5rem 3.5rem;
+}
+html body main section #hero {
+  background: url("/images/model.webp") center/cover no-repeat, var(--color-light-brown);
 }

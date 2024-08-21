@@ -4,7 +4,7 @@ const LongArrow: React.FC = () => {
   return (
     <svg
       width="73"
-      height="16"
+      height="100%"
       viewBox="0 0 73 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
