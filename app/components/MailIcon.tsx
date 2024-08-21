@@ -20,8 +20,8 @@ const MailIcon: React.FC = () => {
       />
       <mask id="path-3-inside-1_70_22" fill="white">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M21.4336 23.1158C22.8512 24.0279 25.1494 24.0279 26.567 23.1158L31.7003 19.8128L31.0586 19.3999L25.9253 22.7029C24.8621 23.387 23.1384 23.387 22.0753 22.7029L16.942 19.3999L16.3003 19.8128L21.4336 23.1158Z"
         />
       </mask>

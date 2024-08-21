@@ -3,8 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --color-white: #FFFFFF;
-  --color-light-green: #BCECD1;
+  --color-white: #ffffff;
+  --color-light-green: #bcecd1;
   --color-light-brown: #928b8b;
   --color-black: #242424;
 }
@@ -14,6 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Khand", sans-serif;
+  transition: all 0.3s ease;
 }
 
 img {
@@ -43,4 +44,5 @@ html body main section {
 }
 html body main section #hero {
   background: url("/images/model.webp") center/cover no-repeat, var(--color-light-brown);
+  background-blend-mode: normal;
 }
